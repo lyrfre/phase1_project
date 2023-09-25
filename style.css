@@ -1,0 +1,9 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#right-side {
+    margin-left:auto;
+}
