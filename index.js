@@ -36,7 +36,7 @@ function featuredArtist(artwork){
     document.querySelector(".detailedWorks").innerHTML = ""
     console.log(artwork)
     const header = document.createElement("h1")
-    header.textContent = "Notable Work:"
+    header.textContent = "Notable Works:"
     document.querySelector(".detailedWorks").appendChild(header)
     artwork.artworks.forEach(art => {
         const artworkDiv = document.createElement("div")
@@ -61,11 +61,13 @@ const form = document.querySelector("#create-comment-form")
   form.addEventListener("submit", (e) => {
     e.preventDefault()
     addComment(e.target["comment"].value)
+
     form.reset()
     }
    )
 
 function addComment(text){
+    console.log("we added a comment")
     console.log(text)
     let comment = document.createElement("li")
     let btn = document.createElement("btn")
