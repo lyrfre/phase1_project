@@ -7,6 +7,11 @@
     <title>Met Museum Art Viewer</title>
     <link rel="stylesheet" href="style.css">
     <script src="./index.js" defer></script>
+
+    <style>
+
+    </style>
+
   </head>
   <body>
     <div id="top">
@@ -19,26 +24,55 @@
 
     <h1>Revolutionary Artists</h1>
 
+    <div class="artist-container">
+      <div class="artist-card">
+      <img style="width:100%; display:inline-block; height:100%;"src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Self-portrait_as_the_Allegory_of_Painting_%28La_Pittura%29_-_Artemisia_Gentileschi.jpg/1200px-Self-portrait_as_the_Allegory_of_Painting_%28La_Pittura%29_-_Artemisia_Gentileschi.jpg'>
+        <p style="color: white;">Artemisia Gentileschi</p><p style="color: white;">1593-1653</p>
+        <p style="color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Italian painter</p>
+        </div>
+
+      <div class="artist-card">
+        <img style="width:100%; display:inline-block; height: 50%;"src='https://d2u3kfwd92fzu7.cloudfront.net/asset/cms/Art_Basel_Betye_Saar2_MOB_copy-1.jpg'>
+          <p style="color: white;">Betye Saar</p><p style="color: white;">1926-Present</p><p style="color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">American assemblage artist</p></div>
+
+      <div class="artist-card">
+        <img style="width:100%; display:inline-block; height: 80%;"src='https://media.newyorker.com/photos/606657c9dfba48ca20cd8b6f/master/w_2560%2Cc_limit/210412_r38198.jpg'>
+          <p style="color: white;">Helen Frankenthaler</p><p style="color: white;">1928-2011</p><p style="color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">American painter</p></div>
+
+      <div class="artist-card">
+        <img style="width:100%; display:inline-block; height: 100%;"src='https://sothebys-com.brightspotcdn.com/dims4/default/8086051/2147483647/strip/true/crop/3840x5760+0+0/resize/684x1026!/quality/90/?url=http%3A%2F%2Fsothebys-brightspot.s3.amazonaws.com%2Fdotcom%2F81%2F46%2F881a24654173af7db07cbcf180c3%2Fg0n9wf.jpg'>
+          <p style="color: white;">Frida Kahlo</p><p style="color: white;">1907-1954</p><p style="color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Mexican painter</p></div>
+
+      <div class="artist-card">
+        <img style="width:100%; display:inline-block; height: 100%;"src='https://www.artic.edu/iiif/2/62bd45e9-5530-fe14-0de6-75cb93c47846/full/843,/0/default.jpg'>
+          <p style="color: white;">Georgia O'Keeffe</p><p style="color: white;">1887-1986</p><p style="color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">American painter</p></div>
+    </div>
     
-    <h2>Artist Viewer</h2>
+    <h2></h2>
     <nav id = "artists"></nav>
           <div id="artist-info">
             <img id="detail-image" src="" />
             <div>
-                <h3 id="nationality">Nationality</h3>
-                <h4 id="title">Title</h4>
-                  <h5 id="year-released">Year Released</h5>
-                
-                  
-                
+                <!-- <h4 id="title">Title</h4>
+                  <h5 id="year-released">Year Released</h5> -->
                 </div>
+
+
 
                 <form id="comments">
                   <label for="like-amount"></label>
                   <input id="all-comments" type="text" placeholder="Add comments here!"/>
-  
-                  <input type="submit" src="https://media.istockphoto.com/id/637747594/vector/isolated-artist-palette-with-three-long-different-brushes-inside-on.jpg?s=612x612&w=0&k=20&c=-6WeLlgResuqvqMlQjRmNovXgZVi3iQDzl2-Kmh_3kA="></button>
+                
+                  <input type="image" src="https://media.istockphoto.com/id/637747594/vector/isolated-artist-palette-with-three-long-different-brushes-inside-on.jpg?s=612x612&w=0&k=20&c=-6WeLlgResuqvqMlQjRmNovXgZVi3iQDzl2-Kmh_3kA="
+                  alt="submit" width="100" height="50"></button>
               </form>
                 
   </body>
 </html>
+
+<!-- style="
+      background-image: url('https://www.artnews.com/wp-content/uploads/2020/04/X10695-A5.jpg?w=1521');
+      background-size: cover;
+      background-position: center;
+      width: 100px;
+      height: 100px;" -->
