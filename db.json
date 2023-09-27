@@ -3,6 +3,9 @@
       {
         "id": 1,
         "name": "Frida Khalo",
+        "artist_image":"https://sothebys-com.brightspotcdn.com/dims4/default/8086051/2147483647/strip/true/crop/3840x5760+0+0/resize/684x1026!/quality/90/?url=http%3A%2F%2Fsothebys-brightspot.s3.amazonaws.com%2Fdotcom%2F81%2F46%2F881a24654173af7db07cbcf180c3%2Fg0n9wf.jpg",
+        "yearsAlive": "1907- 1954",
+        "nationality": "Mexican painter",
         "artworks": {
             "piece1": {
                 "title": "Two Fridas",
@@ -19,14 +22,14 @@
                 "year": 1940,
                 "image": "https://www.artst.org/wp-content/uploads/2021/05/Self-Portrait-with-Thorn-Necklace-and-Hummingbird-Frida-Kahlo.jpg.webp"
             }
-        },
-        "yearsAlive": "1907- 1954",
-        "image": "image",
-        "nationality": "Mexican"
+        }
       },
       {
         "id": 2,
         "name": "Betye Saar",
+        "artist_image": "https://d2u3kfwd92fzu7.cloudfront.net/asset/cms/Art_Basel_Betye_Saar2_MOB_copy-1.jpg",
+        "yearsAlive": "1926-present",
+        "nationality": "American assemblage artist",
         "artworks": {
             "piece1": {
                 "title": "Liberation of Aunt Jemima",
@@ -44,14 +47,14 @@
                 "image": "https://brooklynrail-web.imgix.net/article_image/image/25597/collins-saar-1.jpg?w=440&q=80&fit=max"
             }
 
-        },
-        "yearsAlive": "1926-present",
-        "image": "image",
-        "nationality": "American"
+        }
       },
       {
         "id": 3,
         "name": "Artemisia Gentileschi",
+        "artist_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Self-portrait_as_the_Allegory_of_Painting_%28La_Pittura%29_-_Artemisia_Gentileschi.jpg/1200px-Self-portrait_as_the_Allegory_of_Painting_%28La_Pittura%29_-_Artemisia_Gentileschi.jpg",
+        "yearsAlive": "1593-1653",
+        "nationality": "Italian painter",
         "artworks": {
             "piece1": {
                 "title": "Judith Beheading Holofernes",
@@ -68,14 +71,14 @@
                 "year": 1617,
                 "image": "https://www.artnews.com/wp-content/uploads/2020/04/X10471-A5.jpg"
             }
-        },
-        "yearsAlive": "1593-1653",
-        "image": "image",
-        "nationality": "Italian"
+        }
       },
       {
         "id": 4,
         "name": "Georgia O'Keeffe",
+        "yearsAlive": "1887-1986",
+        "artist_image": "https://www.artic.edu/iiif/2/62bd45e9-5530-fe14-0de6-75cb93c47846/full/843,/0/default.jpg",
+        "nationality": "American painter",
         "artworks": {
             "piece1": {
                 "title": "Ram’s Head, Blue Morning Glory",
@@ -92,14 +95,14 @@
                 "year": 1961,
                 "image": "https://artisticjunkie.com/wp-content/uploads/2018/10/Georgia-O-Keeffe-Paintings.jpg"
             }
-        },
-        "yearsAlive": "1887-1986",
-        "image": "image",
-        "nationality": "American"
+        }
       },
       {
         "id": 5,
         "name": "Helen Frankenthaler",
+        "artist_image": "https://media.newyorker.com/photos/606657c9dfba48ca20cd8b6f/master/w_2560%2Cc_limit/210412_r38198.jpg",
+        "yearsAlive": "1928- 2011",
+        "nationality": "American painter",
         "artworks": {
             "piece1": {
                 "title": "Mountains and Sea",
@@ -116,10 +119,7 @@
                 "year": 1995,
                 "image": "https://www.re-thinkingthefuture.com/wp-content/uploads/2022/08/A7658-Helen-Frankenthaler-10-Iconic-Artworks-Image-4.jpg"
             }
-        },
-        "yearsAlive": "1928- 2011",
-        "image": "image",
-        "nationality": "American"
+        }
       }
     ]
   }
