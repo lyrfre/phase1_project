@@ -1,0 +1,72 @@
+
+{ 
+    "works" :[
+
+    {
+        "Frida": [
+            {"title": "Two Fridas",
+            "year": 1939,
+            "image": "https://www.artst.org/wp-content/uploads/2020/10/The-Two-Fridas.jpg.webp"
+            },
+            {"title": "The Broken Column",
+            "year": 1944,
+            "image": "https://www.artst.org/wp-content/uploads/2020/10/The-Broken-Column-Frida-Kahlo.jpg.webp"
+            },
+            {"title": "Self-Portrait with Thorn Necklace and Hummingbird",
+            "year": 1940,
+            "image": "https://www.artst.org/wp-content/uploads/2021/05/Self-Portrait-with-Thorn-Necklace-and-Hummingbird-Frida-Kahlo.jpg.webp"
+            }]},
+    {
+        "Beyte": [
+            {"title": "Liberation of Aunt Jemima",
+            "year": 1973,
+            "image": "https://sculpturemagazine.art/wp-content/uploads/2019/07/saar_1.jpg"
+            },
+            {"title": "Cage, In the Beginning",
+            "year": 2006,
+            "image": "https://sculpturemagazine.art/wp-content/uploads/2019/07/saar_4-768x1797.jpg"
+            },
+            {"title": "Black Girl's window",
+            "year": 1969,
+            "image": "https://brooklynrail-web.imgix.net/article_image/image/25597/collins-saar-1.jpg?w=440&q=80&fit=max"
+            }]},
+    {"Artemisia": [
+        {"title": "Judith Beheading Holofernes",
+        "year": 1614,
+        "image": "https://www.artnews.com/wp-content/uploads/2020/04/X10473-A5.jpg"
+        },
+        {"title": "Susanna and Elders",
+            "year": 1610,
+            "image": "https://www.artnews.com/wp-content/uploads/2020/04/X10468-A5.jpg"
+        },
+        {"title": "Judith and Her Maidservant",
+            "year": 1617,
+            "image": "https://www.artnews.com/wp-content/uploads/2020/04/X10471-A5.jpg"
+        }]},
+    {"Georgia": [
+        {"title": "Ram’s Head, Blue Morning Glory",
+        "year": 1938,
+        "image": "https://vitruvius.museumseven.com/render/600-600@2/dp-458786-30.jpg"
+        },
+        {"title": "Black Iris",
+            "year": 1926,
+            "image": "https://artisticjunkie.com/wp-content/uploads/2018/10/Georgia-O-Keeffe-Flowers.jpg"
+        },
+        {"title": "Blue",
+            "year": 1961,
+            "image": "https://artisticjunkie.com/wp-content/uploads/2018/10/Georgia-O-Keeffe-Paintings.jpg"
+        }]},
+    {"Helen": [
+        {"title": "Mountains and Sea",
+            "year": 1952,
+            "image": "https://www.re-thinkingthefuture.com/wp-content/uploads/2022/08/A7658-Helen-Frankenthaler-10-Iconic-Artworks-Image-2.jpg"
+        },
+        {"title": "East and Beyond",
+            "year": 1973,
+            "image": "https://www.re-thinkingthefuture.com/wp-content/uploads/2022/08/A7658-Helen-Frankenthaler-10-Iconic-Artworks-Image-3.jpg"
+        },
+        {"title": "Aerie",
+            "year": 1995,
+            "image": "https://www.re-thinkingthefuture.com/wp-content/uploads/2022/08/A7658-Helen-Frankenthaler-10-Iconic-Artworks-Image-4.jpg"
+        }]}]
+    }

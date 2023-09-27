@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color:white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -65,7 +65,7 @@ input {
     justify-content: space-around;
     align-items: center;
     /* border: 2px red solid; */
-    background-color: black;
+    background-color: white;
     width: 100%;
     gap: 30px;
   }
@@ -73,7 +73,7 @@ input {
    .artist-card {
    /* margin: 10%;*/
     /* padding: 20px; */
-    background-color: black;
+    background-color:white;
     background-size: auto;
     width: 20%;
   }
