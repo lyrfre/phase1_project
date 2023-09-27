@@ -2,66 +2,12 @@ document.addEventListener("DOMContentLoaded", ()=> {
     fetch("http://localhost:3000/art")
     .then(response => response.json())
         .then(data => {
-            console.log(data)
-
+            console.log(data);
+            data.forEach(artistCard)
             })
-    }) 
-// })
-
-//         featuredArtist(response["2"])
-//         //globalArtist = response["0"]
-//  //       response.forEach(console.log(artistCard))
-//         let georgia = response["3"]
-//         let console = georgia.forEach(featuredArtist(["5"]["0"]))
-//         console.log(console)
-    //})
-    // fetch("http://localhost:3000/artists/1")
-    // .then(response => response.json())
-    // .then(response => {
-    //     console.log(response)
-    // })
-
+    })
 
 let globalArtist
-
-function clickEvent1(art){
-    document.querySelector(".artist-card").addEventListener("click", (e) =>console.log(e))
-}
-
-
-// function featuredArtist1(art){
-// //featured artist input function
-//     const featuredName = document.querySelector("#featured-artist-name")
-//     const image = document.createElement("img")
-//     image.className = ""
-//     const firstImage = document.querySelector("#first-image")
-//     const firstTitle = document.querySelector("#first-title")
-//     const firstDate = document.querySelector("#first-date")
-
-//     const secondImage = document.querySelector("#second-image")
-//     const secondTitle = document.querySelector("#second-title")
-//     const secondDate = document.querySelector("#second-date")
-    
-//     const thirdImage = document.querySelector("#third-image")
-//     const thirdTitle = document.querySelector("third-title")
-//     const thirdDate = document.querySelector("#third-date")
-
-//     featuredName.textContent = art.name
-    
-//     firstImage.src = art.artworks.piece1.image
-//     firstTitle.textContent = art.artworks.piece1.title
-//     firstDate.textContent = art.artworks.piece1.year
-
-//     secondImage.src = art.artworks.piece2.image
-//     secondTitle.textContent = art.artworks.piece2.title
-//     secondDate.textContent = art.artworks.piece2.year
-
-//     thirdImage.src = art.artworks.piece3.image
-//     thirdTitle.textContent = art.artworks.piece3.title
-//     thirdDate.textContent = art.artworks.piece3.year
-
-//     globalArtist = art
-// }
 
 function artistCard(artist){
     globalArtist = artist
@@ -73,6 +19,7 @@ function artistCard(artist){
 
     artistDiv.className = "artist-card"
     artistImage.src = artist["artist_image"]
+    artistImage.className = "card-image"
     artistName.textContent = artist.name
     artistYearsAlive.textContent = artist.yearsAlive
     artistIdentity.textContent = artist.nationality
@@ -81,48 +28,54 @@ function artistCard(artist){
 
     document.querySelector(".artist-container").append(artistDiv)
 
-    artistImage.addEventListener("click",  artist.artworks.forEach(artwork => featuredArtist(artwork)))
+    //artistImage.addEventListener("click",  artist.artworks.forEach(artwork => featuredArtist(artwork)))
+    artistImage.addEventListener("click",  ()=> featuredArtist(artist))
 }
 
 function featuredArtist(artwork){
+    document.querySelector(".detailedWorks").innerHTML = ""
     console.log(artwork)
-    // const artworkDiv = document.createElement("div")
-    // const artworkImage = document.createElement("img")
-    // const artworkTitle = document.createElement("p")
-    // const artworkDate = document.createElement("h3")
-
-    // artworkDiv.className = "featured-artwork"
-    // artworkImage.src = artwork.image
-    // artworkTitle.textContent = artwork.title
-    // artworkDate.textContent = artwork.year
-
-    // artworkDiv.append(artworkImage, artworkTitle, artworkDate)
-
-
-    // document.querySelector(".detailedWorks").appendChild(artworkDiv)
-
-    artist.artworks.forEach(art => {
+    const header = document.createElement("h1")
+    header.textContent = "Notable Work:"
+    document.querySelector(".detailedWorks").appendChild(header)
+    artwork.artworks.forEach(art => {
         const artworkDiv = document.createElement("div")
         const artworkImage = document.createElement("img")
+        artworkImage.className = "art-image"
         const artworkTitle = document.createElement("p")
         const artworkDate = document.createElement("h3")
     
         artworkDiv.className = "featured-artwork"
-        artworkImage.src = artworks.image
-        artworkTitle.textContent = artworks.title
-        artworkDate.textContent = artworks.year
+        artworkImage.src = art.image
+        artworkTitle.textContent = art.title
+        artworkDate.textContent = art.year
     
         artworkDiv.append(artworkImage, artworkTitle, artworkDate)
     
     
         document.querySelector(".detailedWorks").appendChild(artworkDiv)
-
     })
 }
 
+const form = document.querySelector("#create-comment-form")
+  form.addEventListener("submit", (e) => {
+    e.preventDefault()
+    addComment(e.target["comment"].value)
+    form.reset()
+    }
+   )
 
+function addComment(text){
+    console.log(text)
+    let comment = document.createElement("li")
+    let btn = document.createElement("btn")
+    btn.addEventListener("click", deleteBtn)
+    btn.textContent = "x"
+    comment.textContent = text
+    // console.log(commentContent)
+    document.querySelector("#posted-comments").appendChild(comment)
+}
 
-
-//array.forEach(function(currentValue, index, arr), thisValue)
-
-
+ function deleteBtn(e){
+  e.target.parentNode.remove()
+ }

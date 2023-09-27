@@ -1,5 +1,5 @@
 body {
-    background-color:white;
+    background-color:black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -27,7 +27,8 @@ h1 {
 }*/
 
 h3 {
-    color: rgb(1, 19, 10);
+    color: white;
+    /* rgb(1, 19, 10); */
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: small;
 }
@@ -57,6 +58,39 @@ input {
         padding: 10px 50px;
 }
 
+.card-image {
+    height: 300px;
+    width: 200px
+}
+
+.artist-card {
+    color: white;
+
+}
+
+.featured-artwork{
+    color:white
+}
+
+.art-image {
+    display:flex;
+    width: 300px;
+    align-items: center;
+}
+
+.detailed-works {
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px red solid; */
+    background-color: black;
+    width: 100%;
+    gap: 30px;
+}
+
 .artist-container {
     display: flex;
     /* flex-direction: row; */
@@ -65,7 +99,7 @@ input {
     justify-content: space-around;
     align-items: center;
     /* border: 2px red solid; */
-    background-color: white;
+    background-color: black;
     width: 100%;
     gap: 30px;
   }
@@ -73,11 +107,22 @@ input {
    .artist-card {
    /* margin: 10%;*/
     /* padding: 20px; */
-    background-color:white;
+    background-color:black;
     background-size: auto;
     width: 20%;
   }
 
+h2 {
+    color: white
+  }
+
+li{
+    color:white
+}
+
+ul{
+    color: white
+}
   /*.artist-2 {
     margin: 10%;
     padding: 20px;
