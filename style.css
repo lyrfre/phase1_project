@@ -60,7 +60,7 @@ input {
 
 .card-image {
     height: 300px;
-    width: 200px
+    width: 230px
 }
 
 .artist-card {
@@ -78,12 +78,13 @@ input {
     align-items: center;
 }
 
-.detailed-works {
+.detailedWorks {
     display: flex;
-    /* flex-direction: row; */
+    flex-direction: column;
     /* flex-wrap: wrap; */
-    flex-flow: row nowrap;
-    justify-content: space-around;
+    /* flex-flow: row nowrap; */
+    margin: auto;
+    justify-content: center;
     align-items: center;
     /* border: 2px red solid; */
     background-color: black;

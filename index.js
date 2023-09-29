@@ -36,8 +36,10 @@ function featuredArtist(artwork){
     document.querySelector(".detailedWorks").innerHTML = ""
     console.log(artwork)
     const header = document.createElement("h1")
+    const bio = document.createElement("p")
     header.textContent = "Notable Work:"
-    document.querySelector(".detailedWorks").appendChild(header)
+    bio.textContent = art.bio
+    document.querySelector(".detailedWorks").appendChild(header, bio)
     artwork.artworks.forEach(art => {
         const artworkDiv = document.createElement("div")
         const artworkImage = document.createElement("img")
