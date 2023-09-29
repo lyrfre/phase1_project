@@ -1,35 +1,17 @@
-# phase1_project
+# Lydia and Lyra Phase 1 Project: Art Curator
 
-const fs = require('fs');
+Based off of the Metropolitan Museum of Art.
 
-// Define project details
-const projectName = 'Featured Revolutionary Artists';
-const projectDescription = 'This Single Page Application showcases five revolutionary artists, when  ';
-const installationInstructions = 'To install this project, run `npm install`.';
-const usageInstructions = 'To use this project, run `node index.js`.';
-const contributors = 'John Doe, Jane Smith';
-const license = 'MIT License';
+This Single Page Application showcases five revolutionary artists, their bios and three pieces of art per artist. Each artist's artwork can be showcased via click event on each of their pictures. Comments on the exhibit are able to be posted on the bottom of the page via submit event.
 
-// Generate the README content
-const readmeContent = `
-# ${projectName}
 
-${projectDescription}
+# Other Information
 
 ## Installation
-${installationInstructions}
+Once opened from this git repository in vs code, enter `json-server db.json --routes routes.json` into the terminal. It is slightly different fom the typical command because we have an embedded .json object that requires a different command.
 
 ## Usage
-${usageInstructions}
+To explore various artists, click on each artist and scroll to see their work! Feel free to leave a comment about the exhibition as a whole at the bottom of the page. 
 
 ## Contributors
-${contributors}
-
-## License
-This project is licensed under the ${license}.
-`;
-
-// Write the content to README.md
-fs.writeFileSync('README.md', readmeContent);
-
-console.log('README.md file has been generated.');
+Lydia Scharron and Lyra Freund, with inspiration from the Metropolitan Museum of Art in New York, NY
